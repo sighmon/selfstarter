@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.4'
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.2.4'
 gem 'json', '~> 1.7.7'
 
 group :development do
@@ -36,7 +36,7 @@ gem 'jquery-ui-rails'
 gem 'amazon_flex_pay'
 
 # Configuration File
-gem 'rails_config'
+gem 'config'
 
 # For Heroku
 gem 'rails_12factor'

@@ -20,6 +20,7 @@ config/environments/*.local.yml
 
 *.sublime-workspace
 .rvmrc
+.ruby-gemset
 
 # yes, I use an ide
 .idea/*

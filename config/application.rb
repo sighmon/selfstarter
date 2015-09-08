@@ -14,7 +14,8 @@ module Selfstarter
     config.time_zone = 'Pacific Time (US & Canada)'
     config.encoding = "utf-8"
     config.filter_parameters += [:password]
-    config.active_record.whitelist_attributes = true
+    # Removing when upgrading to Rails 4.2.4
+    # config.active_record.whitelist_attributes = true
     # Enable the asset pipeline
     config.assets.enabled = true
     # Version of your assets, change this if you want to expire all your assets
